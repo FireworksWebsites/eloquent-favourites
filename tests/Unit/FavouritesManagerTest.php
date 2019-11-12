@@ -2,15 +2,16 @@
 namespace Mintbridge\EloquentFavourites\Test;
 
 use Mintbridge\EloquentFavourites\FavouritesManager;
+use PHPUnit\Framework\TestCase;
 
-class FavouritesManagerTest extends \PHPUnit_Framework_TestCase
+class FavouritesManagerTest extends TestCase
 {
     /**
      * @var \Mintbridge\EloquentFavourites\FavouritesManager
      */
     protected $favourites;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->favourites = new FavouritesManager();
     }

@@ -4,8 +4,9 @@ namespace Mintbridge\EloquentFavourites\Test;
 use Illuminate\Support\Facades\Config;
 use Mintbridge\EloquentFavourites\Favourite;
 use Mockery as m;
+use PHPUnit\Framework\TestCase;
 
-class FavouriteTest extends \PHPUnit_Framework_TestCase
+class FavouriteTest extends TestCase
 {
     /**
      * @test
