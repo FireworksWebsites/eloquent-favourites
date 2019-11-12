@@ -1,5 +1,5 @@
 {
-    "name": "FireworksWebsites/eloquent-favourites",
+    "name": "fireworkswebsites/eloquent-favourites",
     "description": "An eloquent package for favouriting eloquent models.",
     "keywords": ["eloquent", "favourite", "favorite", "laravel"],
     "license": "MIT",
